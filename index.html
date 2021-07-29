@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- title and logo -->
+  <title>uSunTour</title>
+  <link rel="icon" href="images/ulogo.ico">
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- ThemeFisher Icon -->
+  <link rel="stylesheet" href="plugins/themefisher-fonts/themefisher-fonts.css">
+  <!-- Light Box -->
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+
+  <!-- Revolution Slider -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map_canvas {
+      height: 100%;
+    }
+
+    /* Optional: Makes the page fill the window. */
+  </style>
+  <script src="plugins/modernizr.min.js"></script>
+</head>
+
+<body>
+  <!-- Loader to display before content Load-->
+  <div class="loading">
+
+    <!-- <img src="img/loader.gif" alt=""> -->
+
+    <div class="windows8 loading-position">
+      <div class="wBall" id="wBall_1">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_2">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_3">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_4">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_5">
+        <div class="wInnerBall"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Navigation -section
+  =========================-->
+  <nav class="navbar navbar-fixed-top navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" href="index.html">
+          <img src="images/logo.png" alt="">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right menu">
+          <li><a href="Mountain/mt-index.html">認識山林</a></li>
+          <li><a href="start/start_itinerary.php">我要開團</a></li>
+          <li><a href="follower.php">我要跟團</a></li>
+          <li><a href="loginpage.php">登入專區</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+  <div class="hero-slider">
+    <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/bg-1.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-container">
+              <h1>U<span id="js-rotating">nique., nited., topia.</span></h1>
+              <p class="p-heading p-large"><h3>進入遊山途，即刻啟動你的烏托邦</h3></p>
+              <a class="btn-solid-lg page-scroll" href="start/start_itinerary.php">我要開團</a>
+              <a class="btn-solid-lg page-scroll" href="follower.php">我要跟團</a>
+            </div>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+
+      </div>
+    </div>
+    <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/bg-2.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-container">
+              <p class="p-heading p-large"><h1>uSunTour</h1><h3>進入遊山途，即刻啟動你的烏托邦</h3></p>
+              <a class="btn-solid-lg page-scroll" href="start/start_itinerary.php">我要開團</a>
+              <a class="btn-solid-lg page-scroll" href="follower.php">我要跟團</a>
+            </div>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Case Study Sections
+  =========================-->
+
+  <section class="case-study">
+    <div class="text-center">
+      <h2 class="title">About uSunTour</h2>
+    </div>
+    <!-- Case Study Description
+      top section -->
+    <div class="case-study-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- inner sub-title -->
+            <div class="content">
+              <h4 class="inner-title" style="font-size: 25px;">WHY we exist?</h4>
+              <p class="case-description" style="color: rgb(255, 255, 255);">今年因疫情的因素及政府從去年6月開始推動開放山林的政策導致今年登山人數快速增長，像是雪霸今年申請人數相比去年又增長了四成。而現行登山平台選擇又少，大部分都沒有篩選的機制缺乏安全性的考量。</p>
+              <p style="color: rgb(255, 255, 255);">
+                今年因疫情的因素及政府從去年6月開始推動開放山林的政策導致今年登山人數快速增長，像是雪霸今年申請人數相比去年又增長了四成。而現行登山平台選擇又少，大部分都沒有篩選的機制缺乏安全性的考量。
+              </p>
+              <!-- View More Details -->
+              <a class="btn btn-default btn-main" href="#" role="button">Top</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-content">
+              <img class="img-responsive" src="images/case-study/case-study-img1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+ 
+  <!-- Clients Logo Sections
+  =========================-->
+  <section class="clients-logo" data-parallax="scroll" data-image-src="images/slider/bg-2.jpg">
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 block text-center">
+            <img src="images/clients-logo/client-logo-1.jpg" style="width:161px;height:101px;" alt="Client Logo">
+          </div>
+          <div class="col-md-4 block text-center">
+            <img src="images/clients-logo/client-logo-2.jpg" style="width:161px;height:101px;" alt="Client Logo">
+          </div>
+          <div class="col-md-4 block text-center">
+            <img src="images/clients-logo/client-logo-3.jpg" style="width:161px;height:101px;" alt="Client Logo">
+          </div>
+
+          <div class="col-md-4 block text-center">
+            <img src="images/clients-logo/client-logo-4.jpg" style="width:161px;height:101px;" alt="Client Logo">
+          </div>
+          <div class="col-md-4 block text-center">
+            <img src="images/clients-logo/client-logo-5.jpg" style="width:161px;height:101px;" alt="Client Logo">
+          </div>
+          <div class="col-md-4 block text-center">
+            <img src="images/clients-logo/client-logo-6.jpg" style="width:161px;height:101px;" alt="Client Logo">
+          </div>
+        </div><!-- /.End row -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Us Sections
+=========================-->
+  <section class="contact-call-to-action">
+    <div class="shadow-block vh-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h2>Get In Touch</h2>
+              <p></p>
+              <a class="btn btn-default btn-main" href="/loginpage.php" role="button">Join Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="map">                
+    </div>
+  </section>
+
+  <div>
+    <footer class="footer">
+      <div class="container">
+        <div class="container">
+          <div class="text-center">
+            <div class="col-md-12">
+              <div class="">
+                <p>&copy; 2020 uSunTour </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="plugins/jquery.min.js"></script>
+  <script src="plugins/morphext.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+  <!-- Lightbox -->
+  <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Parallax -->
+  <script src="plugins/parallax.min.js"></script>
+  <!-- Video -->
+  <script src="plugins/jquery.vide.js"></script>
+  <!-- google map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
